@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: "Gabarito", sans-serif;
+   
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar__s1__title{
+    color: #AF60F2;
+}
+
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+     border-radius:50px ;
+     width: 51%;
+     display: flex;
+     gap: 10px;
+     align-items: center;
+}
+
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: medium;
+}
+
+.navbar__s2 input:focus{
+       outline: none;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    justify-content: safe;
+    
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-bottom: black solid 2px;
+    padding: 10px;
+}
+
+.categories p{
+    background-color: #A65FF0;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.sale-image img{
+    width:100%;
+}
+
+.recommended__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.course-card{
+    width: 350px;
+}
+
+.course-card img{
+    height: 40%;
+    width: 100%;
+}
+
+.recomendation{
+    padding: 10px;
+}
+
+.recomendation__container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.recommended__title{
+    text-align: center;
+    color: #AF60F2;
+}
+.recommended__titles{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.recomendation__container p{
+    border: gray solid 2px;
+    padding: 10px;
+    width:  25%;
+    flex-grow: 1;
+}
+
+.popular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.popular__container img{
+    width: 100%;
+    height: 50%;
+}
+
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.footer__1{
+    display: flex;
+    gap: 10px;
+}
+
+.footer__1 p{
+    margin: 20px;
+}
+
+.footer__2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+.categories p:hover{
+    background-color: azure;
+    color: #A65FF0;
+    padding: 10px;
+    cursor: pointer;
+}
+.populart{
+    text-align: center;
+    color: #A65FF0;
+}
+.popularp{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.r1{
+    text-align: center;
+    font-weight: bold;
+}
+.recomendation__container p:hover{
+    text-align: center;
+    cursor: pointer;
+    background-color: #A65FF0;
+    color: aliceblue;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.navbar__s3__title:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+}
+.navbar__s3__p:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+}
+.footer__1__s1 :hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer__1__s2 :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.course-card {
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(166, 95, 240, 0.3);
+    
+   
+    border: 2px solid rgba(166, 95, 240, 0.3);
+}
+
+
+.course-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.course-card:hover img {
+    transform: scale(1.05);
+}
+
+.course-card h3 {
+    padding: 15px 15px 5px;
+    color: #333;
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.course-card:hover h3 {
+    color: #A65FF0;
+}
+
+.course-card p {
+    padding: 0 15px 10px;
+    color: #666;
+    transition: all 0.3s ease;
+}
+
+
+.course-card p:nth-of-type(2) {
+    color: #FFC107;
+    font-weight: bold;
+}
+
+
+.course-card p:last-child {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 15px;
+    color: #333;
+}
+
+.course-card:hover p:last-child {
+    color: #A65FF0;
+}
+
